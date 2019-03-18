@@ -1,0 +1,258 @@
+
+
+/*footer*/
+.footer {
+
+
+bottom: -400px;
+
+background-color: black;
+font-weight: bold;
+
+
+
+letter-spacing: 2px;
+position: relative;
+text-align: center;
+overflow-y:visible;}
+
+
+
+
+
+
+
+
+
+
+
+
+    /* border: border-width border-style border-color; */
+
+
+
+/*tabell*/
+.table {
+
+display: auto;
+font-size: 2em;
+
+  font-weight: bold;
+ }
+
+
+.table1 {
+  border: solid;
+  height: 20px;
+  width: 20px;
+  position: fixed;
+
+
+}
+
+.h1 {
+  background-image: linear-gradient(180deg, purple, seashell);
+  border: 1px solid black;
+
+
+  column-gap: 10px;
+  height: auto;
+  width: 97px; }
+
+
+/*bilder*/
+.img8 { background: lightpink url('lyrics.jpg') repeat-y fixed 30% 30%;
+background-size: contain;}
+
+.img3 { position: relative;
+left: 540px;
+float: none;}
+
+.img1 {
+
+  border: 30px solid pink;
+          height: 400px;
+          left: 10px;
+
+
+           width: 300px;
+          position: absolute;}
+
+.img2 {
+        bottom: -2000px;
+
+        height: 500px;
+          left:700px;
+        padding: inherit;
+        position: relative;
+        width: 200px;
+
+
+        }
+
+.img10 {
+  position: inherit;
+}
+
+.img11 {
+  position:relative;
+}
+
+
+
+/*paragrafer*/
+
+#p8 {
+
+  color: grey;
+
+
+  font-family: Dekko;
+    font-weight: lighter;
+
+  text-decoration: line-through;
+  text-decoration-color: rgb(128,0,128);}
+
+
+.p4 {
+
+  border-bottom: 4px;
+border-color: black;
+    border-style: solid;
+font-size: 2em;
+font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px #ff0000;}
+
+.em { bottom: -400px;
+position: relative;}
+
+.marquee {
+
+  font-size: 2em;
+
+  text-shadow: 2px 2px #ff0000;}
+
+.strong {
+
+  font-size: 2em;
+  font-style: oblique;
+
+  font-weight: bold;  }
+
+
+.h2 {
+text-align: center;
+}
+
+.h3 {
+
+
+  font-family: 'Dekko';
+    font-size: 1em;
+   text-align: center;
+text-shadow: 2px 2px #ff0000;}
+text-decoration: rgba(255, 0, 0, 0.3);
+}
+
+
+.br {
+
+color: purple;
+ font-family: Dekko;
+ font-size: 1rem;
+text-shadow: 2px 2px #ff0000;
+ text-decoration-color: #000000;
+ }
+
+ .p1 {
+   border: solid black;
+   font-size: 1rem;
+
+   font-weight: bold;
+
+   margin: 70px;
+
+ padding: 50px;
+ flex:auto;
+ flex-direction: row-reverse;
+ display: grid;
+ text-decoration-color: #F2BB66;
+border-radius: 10px;
+box-shadow: 5px 10px;
+}
+
+
+.p2 { font: italic bolder small-caps 1.5em/2em 'Times New Roman';
+}
+
+/* Bakgrunder för olika sidor */
+
+.contact-bg {
+  background-image: url(images/amour.jpg);
+background-position: center;
+}
+
+.vote-bg {
+  background-image: url(images/gold.jpg);
+}
+
+.home-bg {
+  background-color: pink;
+}
+
+.mickey-mouse-bg {
+  background-image: url(images/lilac.jpg);
+
+
+
+
+
+}
+
+.span {
+
+font-size: 4em;
+
+}
+
+.contact {
+  font-size: 30px;
+}
+
+.p p:nth-child(2) {
+  background: red;
+
+
+.meny {
+  a;hover,
+  a:focus,
+  a:link,
+  a:visited,
+  a: active {
+    color:pink;
+        }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+
+.flex-container > div {
+  background-color: white;
+
+  margin-left: 10px;
+  width: 100px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: seashell;
